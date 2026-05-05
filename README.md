@@ -1,5 +1,9 @@
 # Jenkins Pipeline - Alarmas CloudWatch para errores en AWS Lambda
 
+
+![Captura del pipeline](images/screen.png)
+
+
 Este repositorio contiene un `Jenkinsfile` simple para revisar funciones AWS Lambda en dos cuentas AWS y asegurar que cada función tenga una alarma de CloudWatch asociada a la métrica `Errors`.
 
 La idea de esta versión es mantener el uso lo más directo posible:
